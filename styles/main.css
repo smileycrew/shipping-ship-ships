@@ -1,0 +1,30 @@
+body,
+button,
+input,
+select,
+textarea {
+	color: #404040;
+	font-family: "Comfortaa", Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Patua One", serif;
+    letter-spacing: 2px;
+  }
+
+  .details {
+    display: flex;
+    justify-content: space-around;
+}
+
+.detail--column {
+    flex-basis: 30%;
+    border: 1px dotted rgb(32, 41, 218);
+}
+
+.assignments {
+    padding: 1rem 5rem;
+}
+
